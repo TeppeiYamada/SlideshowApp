@@ -89,7 +89,7 @@ class ViewController: UIViewController {
             imageIndex += 1
         }
         
-       
+           
          imageButton.setImage(imageArray[imageIndex], for: UIControlState.normal)
 
     
@@ -125,6 +125,26 @@ class ViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
     
+               
+        myTimer.invalidate()
+        
+        if myTimer.isValid == false{
+            backButton.isEnabled = true
+        }else{
+            
+            backButton.isEnabled = false
+        }
+        
+        if myTimer.isValid == false{
+            nextButton.isEnabled = true
+        }else{
+            
+            
+            nextButton.isEnabled = false
+        }
+        
+        PlayStopButton.setTitle("再生", for: UIControlState.normal)
+        
         let resultViewController: ResultViewController = segue.destination as! ResultViewController
         
         resultViewController.imageIndex = imageIndex

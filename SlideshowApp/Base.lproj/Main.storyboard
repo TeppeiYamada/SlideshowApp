@@ -90,21 +90,26 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x9X-hj-idp">
-                                <rect key="frame" x="172" y="519" width="31" height="30"/>
+                                <rect key="frame" x="172" y="569" width="31" height="30"/>
                                 <state key="normal" title="戻る"/>
                                 <connections>
                                     <segue destination="qsz-Xc-Z7U" kind="unwind" unwindAction="unwindWithSegue:" id="X5E-Ji-xfe"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IyZ-uy-g1P">
-                                <rect key="frame" x="37.5" y="50" width="300" height="350"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IyZ-uy-g1P">
+                                <rect key="frame" x="40" y="50" width="295" height="354"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="354" id="oKQ-wH-V0k"/>
+                                    <constraint firstAttribute="width" constant="295" id="urm-hG-pLV"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="x9X-hj-idp" firstAttribute="centerY" secondItem="gqZ-AN-DMR" secondAttribute="centerY" constant="200" id="LNm-xL-2l6"/>
-                            <constraint firstItem="x9X-hj-idp" firstAttribute="centerX" secondItem="gqZ-AN-DMR" secondAttribute="centerX" id="NnQ-Zw-4mX"/>
+                            <constraint firstItem="IyZ-uy-g1P" firstAttribute="centerX" secondItem="x9X-hj-idp" secondAttribute="centerX" id="7hs-aS-w50"/>
+                            <constraint firstItem="x9X-hj-idp" firstAttribute="centerY" secondItem="gqZ-AN-DMR" secondAttribute="centerY" constant="250" id="i51-2o-aQx"/>
+                            <constraint firstItem="IyZ-uy-g1P" firstAttribute="top" secondItem="SbO-n4-l0T" secondAttribute="bottom" constant="30" id="mGQ-6b-mQo"/>
+                            <constraint firstItem="x9X-hj-idp" firstAttribute="centerX" secondItem="gqZ-AN-DMR" secondAttribute="centerX" id="xNH-4H-jcB"/>
                         </constraints>
                     </view>
                     <connections>

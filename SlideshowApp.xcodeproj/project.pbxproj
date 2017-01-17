@@ -12,6 +12,10 @@
 		06FA4EF61E27C16800E42D86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06FA4EF41E27C16800E42D86 /* Main.storyboard */; };
 		06FA4EF81E27C16800E42D86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06FA4EF71E27C16800E42D86 /* Assets.xcassets */; };
 		06FA4EFB1E27C16800E42D86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06FA4EF91E27C16800E42D86 /* LaunchScreen.storyboard */; };
+		06FA4F031E27C22D00E42D86 /* SHISHI.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 06FA4F021E27C22D00E42D86 /* SHISHI.JPG */; };
+		06FA4F051E27C27300E42D86 /* KEN.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 06FA4F041E27C27300E42D86 /* KEN.JPG */; };
+		06FA4F071E27C28700E42D86 /* BE.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 06FA4F061E27C28700E42D86 /* BE.JPG */; };
+		06FA4F091E28C71C00E42D86 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FA4F081E28C71C00E42D86 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		06FA4EF71E27C16800E42D86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06FA4EFA1E27C16800E42D86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06FA4EFC1E27C16800E42D86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06FA4F021E27C22D00E42D86 /* SHISHI.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SHISHI.JPG; sourceTree = "<group>"; };
+		06FA4F041E27C27300E42D86 /* KEN.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KEN.JPG; sourceTree = "<group>"; };
+		06FA4F061E27C28700E42D86 /* BE.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BE.JPG; sourceTree = "<group>"; };
+		06FA4F081E28C71C00E42D86 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +62,13 @@
 		06FA4EEF1E27C16800E42D86 /* SlideshowApp */ = {
 			isa = PBXGroup;
 			children = (
+				06FA4F061E27C28700E42D86 /* BE.JPG */,
+				06FA4F041E27C27300E42D86 /* KEN.JPG */,
+				06FA4F021E27C22D00E42D86 /* SHISHI.JPG */,
 				06FA4EF01E27C16800E42D86 /* AppDelegate.swift */,
 				06FA4EF21E27C16800E42D86 /* ViewController.swift */,
 				06FA4EF41E27C16800E42D86 /* Main.storyboard */,
+				06FA4F081E28C71C00E42D86 /* ResultViewController.swift */,
 				06FA4EF71E27C16800E42D86 /* Assets.xcassets */,
 				06FA4EF91E27C16800E42D86 /* LaunchScreen.storyboard */,
 				06FA4EFC1E27C16800E42D86 /* Info.plist */,
@@ -124,8 +136,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				06FA4EFB1E27C16800E42D86 /* LaunchScreen.storyboard in Resources */,
+				06FA4F031E27C22D00E42D86 /* SHISHI.JPG in Resources */,
+				06FA4F071E27C28700E42D86 /* BE.JPG in Resources */,
 				06FA4EF81E27C16800E42D86 /* Assets.xcassets in Resources */,
 				06FA4EF61E27C16800E42D86 /* Main.storyboard in Resources */,
+				06FA4F051E27C27300E42D86 /* KEN.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +153,7 @@
 			files = (
 				06FA4EF31E27C16800E42D86 /* ViewController.swift in Sources */,
 				06FA4EF11E27C16800E42D86 /* AppDelegate.swift in Sources */,
+				06FA4F091E28C71C00E42D86 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
